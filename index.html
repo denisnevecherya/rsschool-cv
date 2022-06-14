@@ -1,1 +1,92 @@
-Some code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>cv</title>
+</head>
+<body>
+
+<header class="header">
+    <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        </ul>
+      </nav>
+</header>
+
+<main class="main-container">
+
+    <h2 class="summary-title">Summary</h2>
+    <div id="summary">
+    <img src="./assets/img/avatar.png" alt="my photo" class="summary-photo">
+    <div class="summary-text">
+    <h3 class="summary-position">Junior Frontend Developer</h3>
+    <h1 class="summary-name">Denys Nevecheria</h1>
+    <p class="summary-description">I fell in love with programming when I worked as a marketer and worked closely with a programmer. We did a website redesign on Open Cart.
+        Then I did some projects on Tilda by myself for my clients. Then my own online store on WordPress.
+        I like to help people. It inspires me that through code I can improve the lives of thousands of people.</p>
+    </div>    
+</div>
+
+<div class="container">
+    <div id="skills">
+        <h2 class="title">Skills</h2>
+        <ul>
+            <li><span class="list-name">Web-development:</span> HTML5, CSS3, JavaScript</li>
+            <li><span class="list-name">Frameworks and libraries:</span> React</li>
+            <li><span class="list-name">Version control:</span>GIT, Github</li>
+            <li><span class="list-name">Graphics:</span> Figma</li>
+        </ul>
+    </div>
+
+        <div id="code">
+            <h2 class="title">Code</h2>
+            <pre class="pre"><code>function even_or_odd(number) {
+                if (number % 2 === 0)
+                  return "Even"
+                else
+                  return "Odd"
+              }</code></pre>
+            </div>
+
+        <div id="education">
+            <h2 class="title">Education</h2>
+            <p>Kharkiv National Automobile and Road University</p>
+            </div>
+
+            <div id="english">
+                <h2 class="title">English</h2>
+                <p>B1 - Pre-Intermediate</p>
+                </div>
+            </div>
+
+                <div id="contacts">
+                    <h2 class="contacts-title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-element"><span class="list-name">Location:</span> Kharkiv,Ukraine</li>
+                        <li class="contacts-element"><a href="mailto:denisnevecherya@gmail.com" title="email">denisnevecherya@gmail.com</a></li>
+                        <li class="contacts-element"><span class="list-name">Telegram: </span><a href="https://t.me/chaevar_ua" title="telegram">@chaevar_ua</a></li>
+                        </ul>
+                    </div>
+</main>
+
+<footer class="footer">
+    <div class="footer-container">
+      <div>© 2022 <a href="https://github.com/denisnevecherya" class="github-link">denisnevecherya</a></div>
+      <a href="https://rs.school/js/" class="rss-link"></a>
+    </div>
+  </footer>
+
+</body>
+</html>

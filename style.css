@@ -1,1 +1,230 @@
-Some code
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFF;
+}
+
+.header {
+  background-color: #19421f;
+  width: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px 10px 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 10px 90px 10px 10px;
+    margin-left: 90px;
+  }
+
+  div {   
+    width: 50%;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 40px; 
+  }
+
+  /* Responsive on mobile */
+  @media (max-width: 768px) {
+    div {
+      width: 100%;
+    }
+  }
+
+/* Navigation */
+.nav-list {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 10px;
+    line-height: 30px;
+  }
+
+.nav-item a {
+    color: #ffffff;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+
+.nav-item a:hover {
+    color: #595959;
+  }
+
+  /* Summary */
+#summary {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 10px 25px 20px;
+    border-bottom: 10px solid #d7d1c9;
+  }
+
+  .summary-title {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 27px;
+    color: #000000;
+    margin-left: 500px;
+    margin-top: 50px;
+  }
+  
+.summary-name {
+    font-size: 36px;
+    color: #000000;
+}
+
+  .summary-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #19421f;;
+  }
+
+  .summary-photo {
+  width: 370px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  transition: .3s;
+  }
+
+  .summary-text {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    width: 500px;
+    margin-right: 100px;
+
+  }
+
+  .list-name{
+color: #19421f;
+  }
+
+  /* Code */
+  #code {
+    justify-content: end;
+    padding-left: 80px;
+  }
+
+/* English */
+  #english {
+    padding-left: 80px;
+  }
+
+/* Contacts */
+  #contacts {
+    width: 1400px;
+    padding: 10px 0px 10px 0px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+  }
+
+  .contacts-title {
+    margin-left: 500px;
+    padding-bottom: 26px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px; 
+  }
+
+  .contacts-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .contacts-element {
+  padding: 5px 15px;
+  width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #595959;
+  }
+
+  .contacts-element a {
+    color:#595959;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+
+  .contacts-element a:hover {
+    color: #252525;
+  }
+
+  /* footer */
+  .footer {
+    background-color: #19421f;
+    padding: 20px;  
+    width: 100%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .github-link {
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+  }
+  
+  .rss-link {
+    width: 121px;
+    height: 45px;
+    color: #fff;
+    background-image: url("./assets/img/rs_school.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
